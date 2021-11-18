@@ -1,0 +1,20 @@
+2021-11-16 15:10:06 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts
+Stack Trace:
+#0 C:\Users\gabrielramos\Desktop\projetos\php\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\Users\gabrielramos\Desktop\projetos\php\index.php(41): require('C:\\Users\\gabrie...')
+#2 {main}
+2021-11-16 15:10:11 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 C:\Users\gabrielramos\Desktop\projetos\php\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\Users\gabrielramos\Desktop\projetos\php\index.php(41): require('C:\\Users\\gabrie...')
+#2 {main}
